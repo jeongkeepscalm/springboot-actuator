@@ -30,6 +30,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     implementation 'org.springframework.boot:spring-boot-starter-actuator' //
+    implementation 'io.micrometer:micrometer-registry-prometheus' //추가
 
     //test lombok 사용
     testCompileOnly 'org.projectlombok:lombok'
